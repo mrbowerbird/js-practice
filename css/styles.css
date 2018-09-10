@@ -23,3 +23,12 @@
 .clickable2:hover {
   text-decoration: underline;
 }
+
+.no-background {
+  background-color: none;
+}
+
+.dark-background {
+  background-color: darkgray;
+  color: white;
+}

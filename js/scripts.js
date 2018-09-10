@@ -8,4 +8,14 @@ $(document).ready(function() {
     $("#text-showing").fadeToggle();
     $("#text-hidden").fadeToggle();
   });
+
+  $("button#default").click(function() {
+    $("body").removeClass();
+  });
+
+  $("button#dark").click(function() {
+    $("body").removeClass();
+    $("body").addClass("dark-background");
+  });
+
 });
